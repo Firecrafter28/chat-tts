@@ -203,6 +203,16 @@
 
     maxwellStore.subscribe(async (_maxwellCount: number) => {
       await maxwellContainerInstance?.spawnMaxwell(MAXWELL_COOLDOWN);
+      await maxwellContainerInstance?.spawnMaxwell(MAXWELL_COOLDOWN);
+      await maxwellContainerInstance?.spawnMaxwell(MAXWELL_COOLDOWN);
+      await maxwellContainerInstance?.spawnMaxwell(MAXWELL_COOLDOWN);
+      await maxwellContainerInstance?.spawnMaxwell(MAXWELL_COOLDOWN);
+      await maxwellContainerInstance?.spawnMaxwell(MAXWELL_COOLDOWN);
+      await maxwellContainerInstance?.spawnMaxwell(MAXWELL_COOLDOWN);
+      await maxwellContainerInstance?.spawnMaxwell(MAXWELL_COOLDOWN);
+      await maxwellContainerInstance?.spawnMaxwell(MAXWELL_COOLDOWN);
+      await maxwellContainerInstance?.spawnMaxwell(MAXWELL_COOLDOWN);
+      await maxwellContainerInstance?.spawnMaxwell(MAXWELL_COOLDOWN);
     });
 
     playAudioStore.subscribe(async (url) => {
